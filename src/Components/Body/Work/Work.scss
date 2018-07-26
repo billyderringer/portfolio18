@@ -1,6 +1,53 @@
 @import "../../../SharedCSS/Shared";
 
 #container-work{
-  padding: 50px 0;
+  padding: 50px;
+  #container-projects{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .project-card{
 
+      #column-left{
+        width: 70%;
+        margin: 100px 0;
+        p{
+          color: $light-grey;
+        }
+        #button-row{
+          margin: 40px 0 20px;
+          .project-button{
+            color: $light-grey;
+            background-color: $dark-blue;
+            margin: 0 10px;
+            padding: 7px 10px;
+            border-radius: 3px;
+            i{
+              color: $red-orange;
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+      #column-right{
+        width: 30%;
+        .project-img{
+          @media (max-width: 768px) {
+            display: none;
+          }
+          .project-img-bg{
+            background-image: url("../../../Assets/3px-tile.png");
+            background-color: $red-orange;
+            height: 250px;
+            width: 250px;
+            margin: 25px 0 0 120px;
+          }
+          img{
+            height: 250px;
+            margin: -225px 0 0 50px;
+          }
+        }
+      }
+    }
+  }
 }

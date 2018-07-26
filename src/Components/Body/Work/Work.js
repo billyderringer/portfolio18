@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './Work.css'
 import WorkTile from "./WorkTile";
+import studentGrads from '../../../Assets/students-graduating.jpg'
+import nationalPark from '../../../Assets/national-park.jpg'
 
 class Work extends Component{
     constructor(props) {
@@ -9,9 +11,13 @@ class Work extends Component{
             projects: [
                 {
                     title: "Homeschool Hub",
-                    description: "This is homeschool hub",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing " +
+                    "elit, sed do eiusmod tempor incididunt ut labore et dolore magna " +
+                    "aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco " +
+                    "laboris nisi ut aliquip ex ea commodo consequat.",
                     siteUrl: "...",
-                    imgUrl: "urlimg",
+                    siteGithub: "",
+                    imgUrl: studentGrads,
                     bgColor: "blue",
                     bgUrl: "...bg",
                     fgColor: "red",
@@ -19,9 +25,12 @@ class Work extends Component{
                 },
                 {
                     title: "National Parks Finder",
-                    description: "This is nps",
+                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing " +
+                    "elit, sed do eiusmod tempor incididunt ut labore et dolore magna " +
+                    "aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco " +
+                    "laboris nisi ut aliquip ex ea commodo consequat.",
                     siteUrl: "",
-                    imgUrl: "",
+                    imgUrl: nationalPark,
                     bgColor: "",
                     bgUrl: "",
                     fgColor: "",

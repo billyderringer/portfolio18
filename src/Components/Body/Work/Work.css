@@ -132,35 +132,7 @@ a:active, a:focus {
     opacity: 1;
     -webkit-transform: none;
     transform: none; } }
-#container-skills {
-  padding: 75px 0;
-  background-image: url("../../../Assets/neon-triangle.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  #container-skills #container-columns {
-    align-items: flex-start; }
-    #container-skills #container-columns #versioning-skills {
-      margin-bottom: 20px; }
-    #container-skills #container-columns ul {
-      margin: 0 20px; }
-      #container-skills #container-columns ul li {
-        color: #fff; }
-      #container-skills #container-columns ul i {
-        color: #FF4141;
-        margin: 5px 10px; }
-    @media (max-width: 768px) {
-      #container-skills #container-columns #skills-img {
-        display: none; } }
-    #container-skills #container-columns #skills-img #skills-img-bg {
-      background-image: url("../../../Assets/3px-tile.png");
-      background-color: #FF4141;
-      height: 250px;
-      width: 250px;
-      margin: 25px 0 0 120px; }
-    #container-skills #container-columns #skills-img img {
-      height: 250px;
-      margin: -225px 0 0 50px; }
+#container-work {
+  padding: 50px 0; }
 
-/*# sourceMappingURL=Skills.css.map */
+/*# sourceMappingURL=Work.css.map */

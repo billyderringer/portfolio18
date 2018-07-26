@@ -16,15 +16,27 @@
 }
 
 //Etc
+.center{
+  text-align: center;
+}
+
 .caps{
   font-variant: small-caps;
 }
 
 .section-title{
   color: $red-orange;
+  font-size: 2.5em;
+  margin-bottom: 50px;
   span{
     margin: 0 5px;
   }
+}
+
+.sub-title{
+  color: $red-orange;
+  font-size: 1.5em;
+  margin-bottom: 5px;
 }
 
 

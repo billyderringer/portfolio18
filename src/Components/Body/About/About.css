@@ -48,13 +48,23 @@ a:active, a:focus {
 .flex-column {
   flex-direction: column; }
 
+.center {
+  text-align: center; }
+
 .caps {
   font-variant: small-caps; }
 
 .section-title {
-  color: #FF4141; }
+  color: #FF4141;
+  font-size: 2.5em;
+  margin-bottom: 50px; }
   .section-title span {
     margin: 0 5px; }
+
+.sub-title {
+  color: #FF4141;
+  font-size: 1.5em;
+  margin-bottom: 5px; }
 
 @-webkit-keyframes fadeInLeft {
   0% {
@@ -137,6 +147,7 @@ a:active, a:focus {
       animation-name: fadeInTop;
       animation-duration: 7s; }
   #container-about p {
+    color: #878787;
     font-size: 1.25em;
     width: 50%;
     text-align: center;

@@ -1,0 +1,42 @@
+@import "../../../SharedCSS/Shared";
+
+#container-skills{
+  padding: 75px 0;
+  background-image: url("../../../Assets/neon-triangle.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  #container-columns{
+    align-items: flex-start;
+    #versioning-skills{
+      margin-bottom: 20px;
+    }
+    ul{
+      margin: 0 20px;
+      li{
+        color: $white;
+      }
+      i{
+        color: $red-orange;
+        margin: 5px 10px;
+      }
+    }
+    #skills-img{
+      @media (max-width: 768px) {
+        display: none;
+      }
+      #skills-img-bg{
+        background-image: url("../../../Assets/3px-tile.png");
+        background-color: $red-orange;
+        height: 250px;
+        width: 250px;
+        margin: 25px 0 0 120px;
+      }
+      img{
+        height: 250px;
+        margin: -225px 0 0 50px;
+      }
+    }
+  }
+}

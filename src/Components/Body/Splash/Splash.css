@@ -48,13 +48,23 @@ a:active, a:focus {
 .flex-column {
   flex-direction: column; }
 
+.center {
+  text-align: center; }
+
 .caps {
   font-variant: small-caps; }
 
 .section-title {
-  color: #FF4141; }
+  color: #FF4141;
+  font-size: 2.5em;
+  margin-bottom: 50px; }
   .section-title span {
     margin: 0 5px; }
+
+.sub-title {
+  color: #FF4141;
+  font-size: 1.5em;
+  margin-bottom: 5px; }
 
 @-webkit-keyframes fadeInLeft {
   0% {
@@ -141,7 +151,7 @@ a:active, a:focus {
     background-color: rgba(0, 0, 0, 0.85); }
   #container-splash #splash-brand {
     color: #fff;
-    font-size: 1.5em; }
+    font-size: 2.5em; }
     #container-splash #splash-brand #splash-logo {
       border: 3px solid #FF4141;
       padding: 20px 10px 5px;
@@ -155,7 +165,7 @@ a:active, a:focus {
   #container-splash p {
     color: #fff;
     font-size: 1.75em;
-    margin-top: 20px;
+    margin-top: 30px;
     animation-name: fadeInTop;
     animation-duration: 5s; }
 

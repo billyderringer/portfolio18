@@ -140,7 +140,7 @@ a:active, a:focus {
     -webkit-transform: none;
     transform: none; } }
 #container-work {
-  padding: 50px; }
+  padding: 75px 0 50px; }
   @media screen and (max-width: 768px) {
     #container-work {
       padding: 50px 10px 0; } }

@@ -7,15 +7,15 @@
     font-size: 2.5em;
     margin-bottom: 30px;
     #focus{
-      animation-name: fadeInTop;
+      animation-name: fadeInLeft;
       animation-duration: 5s;
     }
     #perseverance{
-      animation-name: fadeInTop;
+      animation-name: fadeInLeft;
       animation-duration: 6s;
     }
     #passion{
-      animation-name: fadeInTop;
+      animation-name: fadeInLeft;
       animation-duration: 7s;
     }
     @media (max-width: $phone) {
@@ -27,7 +27,7 @@
     font-size: 1.25em;
     width: 50%;
     text-align: center;
-    animation-name: fadeInLeft;
+    animation-name: fadeInRight;
     animation-duration: 7s;
     @media (max-width: $phone) {
       font-size: 1em;

@@ -5,7 +5,7 @@ import Body from "./Components/Body"
 import Footer from "./Components/Footer"
 
 class App extends Component {
-  render() {
+    render() {
     return (
       <div id="container-main" className="caps">
         <Header />

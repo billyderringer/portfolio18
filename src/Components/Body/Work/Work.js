@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Work.css'
 import WorkTile from "./WorkTile";
-import studentGrads from '../../../Assets/students-graduating.jpg'
+//import studentGrads from '../../../Assets/students-graduating.jpg'
 import nationalPark from '../../../Assets/national-park.jpg'
 import partyPlanet from '../../../Assets/party-balloons.jpg'
 import dictionary from '../../../Assets/dictionary.jpg'
@@ -12,7 +12,7 @@ class Work extends Component{
         super(props);
         this.state = {
             projects: [
-                {
+                /*{
                     title: "Homeschool Hub",
                     description: "A React/Redux app that performs as a content management system for Homeschooling families/individuals." +
                     " Custom backend API features authentication using JWT Bearer Tokens and full CRUD operations." +
@@ -20,7 +20,7 @@ class Work extends Component{
                     siteUrl: "",
                     siteGithub: "",
                     imgUrl: studentGrads
-                },
+                },*/
                 {
                     title: "National Parks Finder",
                     description: "A React app that returns results by state using the National Parks Service API. " +

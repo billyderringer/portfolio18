@@ -140,7 +140,7 @@ a:active, a:focus {
     -webkit-transform: none;
     transform: none; } }
 #container-footer {
-  padding: 75px 0 20px;
+  padding: 50px 0 20px;
   background-color: #121e2d; }
   #container-footer .contact-button {
     margin: 10px 5px 0;
@@ -169,7 +169,7 @@ a:active, a:focus {
         margin-right: 5px; }
     @media screen and (max-width: 768px) {
       #container-footer #contact-bar {
-        font-size: .75em; } }
+        font-size: .65em; } }
   #container-footer footer {
     color: #fff;
     text-align: center;

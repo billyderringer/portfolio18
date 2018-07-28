@@ -52,7 +52,7 @@ function Footer(props) {
                            key={i}
                            target="_blank"
                            rel="noopener noreferrer"
-                           className={item.classNames + "contact-button-social scale-up"}
+                           className={item.classNames + "contact-button-social"}
                         >
                             <i className={item.iClassNames + "contact-icon"} />
                             {item.label}</a>

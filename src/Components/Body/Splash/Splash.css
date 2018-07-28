@@ -60,11 +60,18 @@ a:active, a:focus {
   margin-bottom: 50px; }
   .section-title span {
     margin: 0 5px; }
+  @media screen and (max-width: 768px) {
+    .section-title {
+      font-size: 1.75em;
+      margin-bottom: 25px; } }
 
 .sub-title {
   color: #FF4141;
   font-size: 1.5em;
   margin-bottom: 5px; }
+  @media screen and (max-width: 768px) {
+    .sub-title {
+      font-size: 1.15em; } }
 
 @-webkit-keyframes fadeInLeft {
   0% {
@@ -152,6 +159,9 @@ a:active, a:focus {
   #container-splash #splash-brand {
     color: #fff;
     font-size: 2.5em; }
+    @media screen and (max-width: 768px) {
+      #container-splash #splash-brand {
+        font-size: 1.5em; } }
     #container-splash #splash-brand #splash-logo {
       border: 3px solid #FF4141;
       padding: 20px 10px 5px;
@@ -168,5 +178,8 @@ a:active, a:focus {
     margin-top: 30px;
     animation-name: fadeInTop;
     animation-duration: 5s; }
+    @media screen and (max-width: 768px) {
+      #container-splash p {
+        font-size: 1.25em; } }
 
 /*# sourceMappingURL=Splash.css.map */

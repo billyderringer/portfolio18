@@ -13,13 +13,10 @@ class About extends Component{
                     <span id="passion">Passion.</span>
                 </h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis
-                    nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur.
+                    Focused solutions-oriented developer currently working with React, Redux and
+                    various other awesome tools. Avid, teachable learner, willing to take on any
+                    challenge given the opportunity. Seeking a transition from business owner
+                    to full-time Front-End Developer within a growing organization.
                 </p>
             </section>
         )

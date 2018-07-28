@@ -18,13 +18,20 @@
       animation-name: fadeInTop;
       animation-duration: 7s;
     }
+    @media (max-width: $phone) {
+      font-size: 1.25em;
+    }
   }
   p{
     color: $light-grey;
     font-size: 1.25em;
     width: 50%;
     text-align: center;
-    animation-name: fadeInTop;
+    animation-name: fadeInLeft;
     animation-duration: 7s;
+    @media (max-width: $phone) {
+      font-size: 1em;
+      width: 90%;
+    }
   }
 }

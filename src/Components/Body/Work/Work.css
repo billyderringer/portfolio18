@@ -60,11 +60,18 @@ a:active, a:focus {
   margin-bottom: 50px; }
   .section-title span {
     margin: 0 5px; }
+  @media screen and (max-width: 768px) {
+    .section-title {
+      font-size: 1.75em;
+      margin-bottom: 25px; } }
 
 .sub-title {
   color: #FF4141;
   font-size: 1.5em;
   margin-bottom: 5px; }
+  @media screen and (max-width: 768px) {
+    .sub-title {
+      font-size: 1.15em; } }
 
 @-webkit-keyframes fadeInLeft {
   0% {
@@ -134,39 +141,51 @@ a:active, a:focus {
     transform: none; } }
 #container-work {
   padding: 50px; }
-  #container-work #container-projects {
-    display: flex;
-    justify-content: center;
-    flex-direction: column; }
-    #container-work #container-projects .project-card #column-left {
-      width: 70%;
-      margin: 100px 0; }
-      #container-work #container-projects .project-card #column-left p {
-        color: #878787; }
-      #container-work #container-projects .project-card #column-left #button-row {
-        margin: 40px 0 20px; }
-        #container-work #container-projects .project-card #column-left #button-row .project-button {
-          color: #878787;
-          background-color: #121e2d;
-          margin: 0 10px;
-          padding: 7px 10px;
-          border-radius: 3px; }
-          #container-work #container-projects .project-card #column-left #button-row .project-button i {
-            color: #FF4141;
-            margin-right: 5px; }
-    #container-work #container-projects .project-card #column-right {
-      width: 30%; }
-      @media (max-width: 768px) {
-        #container-work #container-projects .project-card #column-right .project-img {
-          display: none; } }
-      #container-work #container-projects .project-card #column-right .project-img .project-img-bg {
-        background-image: url("../../../Assets/3px-tile.png");
-        background-color: #FF4141;
-        height: 250px;
-        width: 250px;
-        margin: 25px 0 0 120px; }
-      #container-work #container-projects .project-card #column-right .project-img img {
-        height: 250px;
-        margin: -225px 0 0 50px; }
+  @media screen and (max-width: 768px) {
+    #container-work {
+      padding: 50px 10px 0; } }
+  @media screen and (max-width: 768px) {
+    #container-work #container-projects .project-card {
+      display: flex;
+      justify-content: center;
+      flex-direction: column-reverse;
+      margin: 50px 0; } }
+  #container-work #container-projects .project-card #column-left {
+    width: 40%;
+    margin: 100px 0; }
+    @media screen and (max-width: 768px) {
+      #container-work #container-projects .project-card #column-left {
+        width: 100%;
+        margin: 0;
+        text-align: center; } }
+    #container-work #container-projects .project-card #column-left p {
+      color: #878787; }
+    #container-work #container-projects .project-card #column-left #button-row {
+      margin: 40px 0 20px; }
+      #container-work #container-projects .project-card #column-left #button-row .project-button {
+        color: rgba(255, 255, 255, 0.75);
+        background-color: #121e2d;
+        margin: 0 10px;
+        padding: 7px 10px;
+        border-radius: 3px; }
+        #container-work #container-projects .project-card #column-left #button-row .project-button:hover {
+          color: #fff; }
+        #container-work #container-projects .project-card #column-left #button-row .project-button i {
+          color: #FF4141;
+          margin-right: 5px; }
+  #container-work #container-projects .project-card #column-right {
+    width: 30%; }
+    @media screen and (max-width: 768px) {
+      #container-work #container-projects .project-card #column-right {
+        display: none; } }
+    #container-work #container-projects .project-card #column-right .project-img .project-img-bg {
+      background-image: url("../../../Assets/3px-tile.png");
+      background-color: #FF4141;
+      height: 250px;
+      width: 250px;
+      margin: 25px 0 0 100px; }
+    #container-work #container-projects .project-card #column-right .project-img img {
+      height: 250px;
+      margin: -225px 0 0 50px; }
 
 /*# sourceMappingURL=Work.css.map */

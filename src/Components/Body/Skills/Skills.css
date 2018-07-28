@@ -60,11 +60,18 @@ a:active, a:focus {
   margin-bottom: 50px; }
   .section-title span {
     margin: 0 5px; }
+  @media screen and (max-width: 768px) {
+    .section-title {
+      font-size: 1.75em;
+      margin-bottom: 25px; } }
 
 .sub-title {
   color: #FF4141;
   font-size: 1.5em;
   margin-bottom: 5px; }
+  @media screen and (max-width: 768px) {
+    .sub-title {
+      font-size: 1.15em; } }
 
 @-webkit-keyframes fadeInLeft {
   0% {
@@ -145,6 +152,9 @@ a:active, a:focus {
       margin-bottom: 20px; }
     #container-skills #container-columns ul {
       margin: 0 20px; }
+      @media screen and (max-width: 768px) {
+        #container-skills #container-columns ul {
+          font-size: .8em; } }
       #container-skills #container-columns ul li {
         color: #fff; }
       #container-skills #container-columns ul i {

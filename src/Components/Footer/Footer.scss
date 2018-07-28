@@ -1,5 +1,46 @@
 @import "../../SharedCSS/Shared";
 
 #container-footer{
-  height: 50vh;
+  padding: 50px 0 20px;
+  background-color: $dark-blue;
+  .contact-button{
+    margin: 10px 5px 0;
+    padding: 7px 10px;
+    color: $opaque-white;
+    border-radius: 3px;
+    border: 1px solid $dark-blue;
+    &:hover{
+      border: 1px solid $red-orange;
+      color: $white;
+    }
+    i{
+      color: $red-orange;
+      margin-right: 5px;
+    }
+  }
+  #contact-bar{
+    margin-top: 30px;
+    .contact-button-social{
+      margin: 0 5px;
+      padding: 7px 10px;
+      color: $opaque-white;
+      border-radius: 3px;
+      border: 1px solid $red-orange;
+      &:hover{
+        color: $white;
+      }
+      i{
+        color: $red-orange;
+        margin-right: 5px;
+      }
+    }
+    @media screen and (max-width: $phone) {
+    font-size: .75em;
+  }
+  }
+  footer{
+    color: $white;
+    text-align: center;
+    padding-top: 100px;
+  }
 }

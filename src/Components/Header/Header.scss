@@ -5,12 +5,15 @@
   top: 0;
   width: 100%;
   z-index: 900;
-  padding: 20px 0;
+  padding: 10px 0;
   background-color: $opaque-blue;
   justify-content: space-between;
   #container-brand{
     color: $white;
     margin-left: 20px;
+    @media screen and (max-width: $phone) {
+      font-size: .75em;
+    }
     #nav-logo{
       display: inline-block;
       border: 2px solid $red-orange;
@@ -33,6 +36,8 @@
         }
       }
     }
-
+  @media (max-width: $phone) {
+    display: none;
+  }
   }
 }

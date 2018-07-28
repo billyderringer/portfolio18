@@ -60,11 +60,18 @@ a:active, a:focus {
   margin-bottom: 50px; }
   .section-title span {
     margin: 0 5px; }
+  @media screen and (max-width: 768px) {
+    .section-title {
+      font-size: 1.75em;
+      margin-bottom: 25px; } }
 
 .sub-title {
   color: #FF4141;
   font-size: 1.5em;
   margin-bottom: 5px; }
+  @media screen and (max-width: 768px) {
+    .sub-title {
+      font-size: 1.15em; } }
 
 @-webkit-keyframes fadeInLeft {
   0% {
@@ -146,12 +153,19 @@ a:active, a:focus {
     #container-about #about-title #passion {
       animation-name: fadeInTop;
       animation-duration: 7s; }
+    @media (max-width: 768px) {
+      #container-about #about-title {
+        font-size: 1.25em; } }
   #container-about p {
     color: #878787;
     font-size: 1.25em;
     width: 50%;
     text-align: center;
-    animation-name: fadeInTop;
+    animation-name: fadeInLeft;
     animation-duration: 7s; }
+    @media (max-width: 768px) {
+      #container-about p {
+        font-size: 1em;
+        width: 90%; } }
 
 /*# sourceMappingURL=About.css.map */

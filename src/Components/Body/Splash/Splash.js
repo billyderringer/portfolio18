@@ -15,7 +15,7 @@ class Splash extends Component{
                         <span id="splash-name">Billy Derringer</span>
                     </h1>
                 </section>
-                <p>Front End Developer</p>
+                <p>Front-End Developer</p>
             </section>
         )
     }

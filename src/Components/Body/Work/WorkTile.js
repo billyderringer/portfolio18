@@ -30,7 +30,7 @@ class WorkTile extends Component{
                             </div>
                         </div>
                         <div id="column-right">
-                            <section className="project-img">
+                            <section className="project-img center-all-flex flex-column">
                                 <div className="project-img-bg">
                                 </div>
                                 <img src={project.imgUrl}

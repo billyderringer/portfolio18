@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Work.css'
 import WorkTile from "./WorkTile";
-//import studentGrads from '../../../Assets/students-graduating.jpg'
+import studentGrads from '../../../Assets/students-graduating.jpg'
 import nationalPark from '../../../Assets/national-park.jpg'
 import partyPlanet from '../../../Assets/party-balloons.jpg'
 import dictionary from '../../../Assets/dictionary.jpg'

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7d724ef-2943-4d8a-b50c-c4e953481f55" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Work/Work.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Work/Work.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Work/Work.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Work/Work.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Work/Mockups.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Work/Mockups.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/Work/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Work/Work.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Work/Work.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Work/Work.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Work/WorkTile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Work/WorkTile.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,7 +43,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1" />
-          <entry key="js" value="1765" />
+          <entry key="js" value="1831" />
           <entry key="json" value="1" />
           <entry key="scss" value="957" />
         </counts>
@@ -56,7 +52,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="1765" />
+          <entry key="JavaScript" value="1831" />
           <entry key="SCSS" value="957" />
         </counts>
       </usages-collector>
@@ -68,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/Work.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="340">
+              <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -81,12 +77,12 @@
         <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/WorkTile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
-              <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/Work.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="278">
@@ -95,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/Mockups.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -157,9 +153,9 @@
         <option value="$PROJECT_DIR$/src/Components/Footer/Footer.js" />
         <option value="$PROJECT_DIR$/src/Components/Footer/Footer.scss" />
         <option value="$PROJECT_DIR$/src/Components/Body/Work/WorkTile.js" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Work/Mockups.js" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Work/Work.js" />
         <option value="$PROJECT_DIR$/src/Components/Body/Work/Work.scss" />
+        <option value="$PROJECT_DIR$/src/Components/Body/Work/Work.js" />
+        <option value="$PROJECT_DIR$/src/Components/Body/Work/Mockups.js" />
       </list>
     </option>
   </component>
@@ -187,7 +183,7 @@
       <path value="$PROJECT_DIR$/src/SharedCSS/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-20" />
     <option name="y" value="-20" />
     <option name="width" value="3875" />
@@ -304,18 +300,18 @@
       <workItem from="1532826205507" duration="260000" />
       <workItem from="1532914923273" duration="753000" />
       <workItem from="1532918183754" duration="1444000" />
-      <workItem from="1533436190819" duration="4815000" />
+      <workItem from="1533436190819" duration="5707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67747000" />
+    <option name="totallyTimeSpent" value="68639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18846412" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18846412" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -332,7 +328,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.19919518" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.19919518" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,34 +555,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/Mockups.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/Work.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="278">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/WorkTile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
-          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/Work.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="340">
+          <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/Work.scss">
+    <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/Mockups.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
         </state>
       </provider>
     </entry>

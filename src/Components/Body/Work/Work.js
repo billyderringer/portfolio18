@@ -17,11 +17,13 @@ class Work extends Component{
             psd:[
                 {
                     title: "Jewelry Store",
-                    imgUrl: jewelryBg
+                    imgUrl: jewelryBg,
+                    projectUrl: "https://billyderringer.github.io/jewelry-store/"
                 },
                 {
                     title: "Charger",
-                    imgUrl: chargerBg
+                    imgUrl: chargerBg,
+                    projectUrl: "https://www.billyderringer.com"
                 }
             ],
             projects: [

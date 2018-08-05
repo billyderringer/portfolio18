@@ -12,9 +12,11 @@ class Mockups extends Component{
                                     mockup-items">
                     {
                         this.props.psd.map((project,i) => {
-                            return <a href="https://www.billyderringer.com">
-                                <div key={i}
-                                     className="mockup-item flex-column">
+                            return <a href={project.projectUrl}
+                                      key={i}
+                                      target="_blank"
+                                      rel="noopener noreferrer">
+                                <div className="mockup-item flex-column">
                                     <h4>{project.title}</h4>
                                     <img className="mockup-img"
                                          src={project.imgUrl}

@@ -144,6 +144,45 @@ a:active, a:focus {
   @media screen and (max-width: 768px) {
     #container-work {
       padding: 50px 10px 0; } }
+  #container-work .mockups {
+    color: #454545;
+    margin: 0 0 50px 15%; }
+    @media screen and (max-width: 768px) {
+      #container-work .mockups {
+        padding: 0 10px; } }
+    #container-work .mockups h3 {
+      font-size: 2em;
+      padding-bottom: 20px; }
+    #container-work .mockups p {
+      color: #878787; }
+    @media screen and (max-width: 768px) {
+      #container-work .mockups {
+        text-align: center;
+        margin-left: 0; }
+        #container-work .mockups h3 {
+          font-size: 1.5em; } }
+    #container-work .mockups .mockup-items {
+      margin-top: 20px;
+      justify-content: flex-start; }
+      @media screen and (max-width: 768px) {
+        #container-work .mockups .mockup-items {
+          justify-content: center;
+          flex-wrap: wrap; } }
+      #container-work .mockups .mockup-items .mockup-item {
+        margin-right: 30px; }
+        #container-work .mockups .mockup-items .mockup-item h4 {
+          font-size: 1.5em; }
+  #container-work .mockup-img {
+    width: 240px; }
+  #container-work .project-title {
+    color: #454545;
+    font-size: 2em;
+    margin: 20px 0 -40px 15%; }
+    @media screen and (max-width: 768px) {
+      #container-work .project-title {
+        font-size: 1.5em;
+        text-align: center;
+        margin-left: 0; } }
   @media screen and (max-width: 768px) {
     #container-work #container-projects .project-card {
       display: flex;

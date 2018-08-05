@@ -5,6 +5,7 @@ class WorkTile extends Component{
     render(){
         return(
             <div id="container-projects">
+                <h3 className="project-title">Apps</h3>
             {
                 this.props.projects.map((project, i) => {
                 return <section key={i}
@@ -34,7 +35,7 @@ class WorkTile extends Component{
                                 <div className="project-img-bg">
                                 </div>
                                 <img src={project.imgUrl}
-                                     alt="neon arrow"/>
+                                     alt={project.title}/>
                             </section>
                         </div>
                     </section>

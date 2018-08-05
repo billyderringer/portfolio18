@@ -1,16 +1,29 @@
 import React, { Component } from 'react'
 import './Work.css'
-import WorkTile from "./WorkTile";
+import WorkTile from "./WorkTile"
+import jewelryBg from '../../../Assets/jewelry-bg.jpg'
+import chargerBg from '../../../Assets/charger-bg.jpg'
 import studentGrads from '../../../Assets/students-graduating.jpg'
 import nationalPark from '../../../Assets/national-park.jpg'
 import partyPlanet from '../../../Assets/party-balloons.jpg'
 import dictionary from '../../../Assets/dictionary.jpg'
 import addition from '../../../Assets/addition.jpeg'
+import Mockups from "./Mockups"
 
 class Work extends Component{
     constructor(props) {
         super(props);
         this.state = {
+            psd:[
+                {
+                    title: "Jewelry Store",
+                    imgUrl: jewelryBg
+                },
+                {
+                    title: "Charger",
+                    imgUrl: chargerBg
+                }
+            ],
             projects: [
                 {
                     title: "Homeschool Hub",
@@ -62,6 +75,7 @@ class Work extends Component{
         return(
             <section id="container-work">
                 <h2 className="section-title center">Work</h2>
+                <Mockups psd={this.state.psd}/>
                 <WorkTile projects={this.state.projects}/>
             </section>
         )

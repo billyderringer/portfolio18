@@ -21,7 +21,7 @@ class Work extends Component{
                     projectUrl: "https://billyderringer.github.io/jewelry-store/"
                 },
                 {
-                    title: "Charger",
+                    title: "Charger Customs",
                     imgUrl: chargerBg,
                     projectUrl: "https://billyderringer.github.io/charger/"
                 }

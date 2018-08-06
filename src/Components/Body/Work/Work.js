@@ -23,7 +23,7 @@ class Work extends Component{
                 {
                     title: "Charger",
                     imgUrl: chargerBg,
-                    projectUrl: "https://www.billyderringer.com"
+                    projectUrl: "https://billyderringer.github.io/charger/"
                 }
             ],
             projects: [

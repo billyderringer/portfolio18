@@ -27,7 +27,7 @@ class Work extends Component{
                 }
             ],
             projects: [
-                {
+                /*{
                     title: "Homeschool Hub",
                     description: "A React/Redux app that performs as a content management system for Homeschooling families/individuals." +
                     " Custom backend API features authentication using JWT Bearer Tokens and full CRUD operations." +
@@ -35,7 +35,7 @@ class Work extends Component{
                     siteUrl: "https://billyderringer.github.io/homeschool-hub/",
                     siteGithub: "https://github.com/billyderringer/homeschool-hub",
                     imgUrl: studentGrads
-                },
+                },*/
                 {
                     title: "National Parks Finder",
                     description: "A React app that returns results by state using the National Parks Service API. " +

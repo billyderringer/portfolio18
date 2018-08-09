@@ -3,7 +3,8 @@ import React, { Component } from 'react'
 class Mockups extends Component{
     render(){
         return(
-            <section className="mockups">
+            <section id="mockups"
+                     className="mockups">
                 <h3>Mockups</h3>
                 <p>These projects were taken from PSD to code. All designs are available via the link
                 at the bottom of each page.</p>

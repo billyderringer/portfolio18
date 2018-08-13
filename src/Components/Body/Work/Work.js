@@ -3,7 +3,7 @@ import './Work.css'
 import WorkTile from "./WorkTile"
 import jewelryBg from '../../../Assets/jewelry-bg.jpg'
 import chargerBg from '../../../Assets/charger-bg.jpg'
-import studentGrads from '../../../Assets/students-graduating.jpg'
+//import studentGrads from '../../../Assets/students-graduating.jpg'
 import nationalPark from '../../../Assets/national-park.jpg'
 import partyPlanet from '../../../Assets/party-balloons.jpg'
 import dictionary from '../../../Assets/dictionary.jpg'

@@ -172,6 +172,9 @@ a:active, a:focus {
         margin-right: 30px; }
         #container-work .mockups .mockup-items .mockup-item h4 {
           font-size: 1.5em; }
+        @media screen and (max-width: 768px) {
+          #container-work .mockups .mockup-items .mockup-item {
+            margin: 20px 0 0 0; } }
   #container-work .mockup-img {
     width: 240px; }
   #container-work .project-title {

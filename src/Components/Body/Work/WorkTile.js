@@ -11,7 +11,11 @@ class WorkTile extends Component{
                 return <section key={i}
                             className="project-card center-all-flex">
                         <div id="column-left">
-                            <h3 className="sub-title">{project.title}</h3>
+                            <a href={project.siteUrl}
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                <h3 className="sub-title">{project.title}</h3>
+                            </a>
                             <p>{project.description}</p>
                             <div id="button-row">
                                 <a className="project-button"

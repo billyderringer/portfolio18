@@ -3,6 +3,7 @@ import './Work.css'
 import WorkTile from "./WorkTile"
 import jewelryBg from '../../../Assets/jewelry-bg.jpg'
 import chargerBg from '../../../Assets/charger-bg.jpg'
+import capBg from '../../../Assets/cap-bg.jpg'
 //import studentGrads from '../../../Assets/students-graduating.jpg'
 import nationalPark from '../../../Assets/national-park.jpg'
 import partyPlanet from '../../../Assets/party-balloons.jpg'
@@ -24,6 +25,11 @@ class Work extends Component{
                     title: "Charger Customs",
                     imgUrl: chargerBg,
                     projectUrl: "https://billyderringer.github.io/charger/"
+                },
+                {
+                    title: "CAP Program",
+                    imgUrl: capBg,
+                    projectUrl: "https://billyderringer.github.io/cap-program/"
                 }
             ],
             projects: [

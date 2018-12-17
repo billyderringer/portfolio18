@@ -9,6 +9,7 @@ class Skills extends Component{
         this.state = {
             programming: [
                 "Javascript",
+                "Jest",
                 "ReactJS",
                 "Redux",
                 "NodeJS",
@@ -27,6 +28,7 @@ class Skills extends Component{
             ],
             other: [
                 "NPM",
+                "Webpack",
                 "Heroku",
                 "Adobe Suite (Design)",
                 "Gimp",

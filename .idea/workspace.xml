@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f7d724ef-2943-4d8a-b50c-c4e953481f55" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Work/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Work/Work.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,66 +14,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-881584736">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.0" value="9" />
-          <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="1" />
-          <entry key="jpg" value="3" />
-          <entry key="js" value="16" />
-          <entry key="json" value="4" />
-          <entry key="scss" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="1" />
-          <entry key="Image" value="3" />
-          <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="16" />
-          <entry key="SCSS" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="html" value="1" />
-          <entry key="js" value="1951" />
-          <entry key="json" value="1" />
-          <entry key="scss" value="1000" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="1" />
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="1951" />
-          <entry key="SCSS" value="1000" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/Work.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="459">
               <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
-                <element signature="e#274#334#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/Body/Skills/Skills.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-242">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -157,7 +116,6 @@
         <option value="$PROJECT_DIR$/src/Components/Body/Splash/package.json" />
         <option value="$PROJECT_DIR$/src/Components/Body/About/package.json" />
         <option value="$PROJECT_DIR$/src/Components/Body/Skills/package.json" />
-        <option value="$PROJECT_DIR$/src/Components/Body/Skills/Skills.js" />
         <option value="$PROJECT_DIR$/src/Components/Body/Work/package.json" />
         <option value="$PROJECT_DIR$/src/Components/Body/Skills/SkillColumn.js" />
         <option value="$PROJECT_DIR$/src/Components/Body/Splash/Splash.scss" />
@@ -179,38 +137,15 @@
         <option value="$PROJECT_DIR$/src/Components/Body/Work/Work.scss" />
         <option value="$PROJECT_DIR$/src/Components/Body/Work/WorkTile.js" />
         <option value="$PROJECT_DIR$/src/Components/Body/Work/Work.js" />
+        <option value="$PROJECT_DIR$/src/Components/Body/Skills/Skills.js" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-      <path value="$PROJECT_DIR$/src/Components/Body/About/package.json" />
-      <path value="$PROJECT_DIR$/src/Components/Body/Skills/package.json" />
-      <path value="$PROJECT_DIR$/src/Components/Body/Splash/package.json" />
-      <path value="$PROJECT_DIR$/src/Components/Body/Work/package.json" />
-      <path value="$PROJECT_DIR$/src/Components/Body/package.json" />
-      <path value="$PROJECT_DIR$/src/Components/Footer/package.json" />
-      <path value="$PROJECT_DIR$/src/Components/Header/package.json" />
-      <path value="$PROJECT_DIR$/src/SharedCSS/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="y" value="-15" />
-    <option name="width" value="3875" />
-    <option name="height" value="2095" />
+    <option name="x" value="2530" />
+    <option name="y" value="1050" />
+    <option name="width" value="1360" />
+    <option name="height" value="690" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -241,13 +176,22 @@
               <item name="portfolio-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio-2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Assets" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio-2018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SharedCSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Body" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Body" type="462c0819:PsiDirectoryNode" />
+              <item name="Skills" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,18 +260,19 @@
       <workItem from="1533857090744" duration="1070000" />
       <workItem from="1534194396109" duration="1132000" />
       <workItem from="1534813665914" duration="37000" />
-      <workItem from="1540279724249" duration="763000" />
+      <workItem from="1540279724249" duration="1712000" />
+      <workItem from="1540542312476" duration="11000" />
+      <workItem from="1545077747860" duration="391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72259000" />
+    <option name="totallyTimeSpent" value="73610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15358819" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12474849" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -345,14 +290,11 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.19248827" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.1529175" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.js">
@@ -513,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/Skills/Skills.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="40" column="41" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Footer/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -558,6 +493,22 @@
     <entry file="file://$PROJECT_DIR$/src/Assets/neon-arrow.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Assets/jewelry-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Assets/charger-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/Work.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/WorkTile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -593,20 +544,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Assets/jewelry-bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Assets/charger-bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/Work.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Body/Skills/Skills.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#274#334#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-242">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
         </state>
       </provider>
     </entry>

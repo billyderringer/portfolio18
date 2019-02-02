@@ -5,26 +5,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/About/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/About/About.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/About/About.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/About/About.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/About/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/About/About.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/About/About.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/Body.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Body.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/Body.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Body.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/Splash/Splash.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Splash/Splash.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/Splash/Splash.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Splash/Splash.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Splash/Splash.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Splash/Splash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Splash/Splash.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Splash/Splash.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/Work/Work.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Work/Work.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/Work/Work.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Work/Work.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Work/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Work/Work.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Work/Work.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Work/Work.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Work/WorkTile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Work/WorkTile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SharedCSS/Colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedCSS/Colors.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SharedCSS/Utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedCSS/Utilities.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -51,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/src/Components/Body/Skills/SkillColumn.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -60,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/Components/Header/Brand.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+              <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -78,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/src/Components/Body/Splash/Splash.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -87,25 +79,25 @@
         <entry file="file://$PROJECT_DIR$/src/SharedCSS/Colors.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SharedCSS/Utilities.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SharedCSS/Utilities.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/Work.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -183,10 +175,10 @@
         <option value="$PROJECT_DIR$/src/Components/Body/About/About.scss" />
         <option value="$PROJECT_DIR$/src/Components/Body/Splash/Splash.scss" />
         <option value="$PROJECT_DIR$/src/SharedCSS/Colors.scss" />
-        <option value="$PROJECT_DIR$/src/SharedCSS/Utilities.scss" />
         <option value="$PROJECT_DIR$/src/Components/Body/Work/WorkTile.js" />
         <option value="$PROJECT_DIR$/src/Components/Body/Work/Work.js" />
         <option value="$PROJECT_DIR$/src/Components/Body/Work/Work.scss" />
+        <option value="$PROJECT_DIR$/src/SharedCSS/Utilities.scss" />
       </list>
     </option>
   </component>
@@ -327,18 +319,18 @@
       <workItem from="1540542312476" duration="11000" />
       <workItem from="1545077747860" duration="1220000" />
       <workItem from="1545167545728" duration="23000" />
-      <workItem from="1549130318932" duration="10255000" />
+      <workItem from="1549130318932" duration="10813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84717000" />
+    <option name="totallyTimeSpent" value="85275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10127932" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10127932" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -356,7 +348,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.12153518" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.12153518" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +504,7 @@
     <entry file="file://$PROJECT_DIR$/src/Components/Header/Brand.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -550,14 +542,14 @@
     <entry file="file://$PROJECT_DIR$/src/Components/Body/Splash/Splash.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SharedCSS/Colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -585,14 +577,7 @@
     <entry file="file://$PROJECT_DIR$/src/Components/Body/Skills/SkillColumn.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SharedCSS/Utilities.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -616,7 +601,14 @@
     <entry file="file://$PROJECT_DIR$/src/Components/Body/Work/Work.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SharedCSS/Utilities.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
         </state>
       </provider>
     </entry>

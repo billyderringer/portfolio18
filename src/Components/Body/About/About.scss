@@ -2,21 +2,13 @@
 
 
 #container-about{
-  padding: 50px 0;
+  padding: 60px 0;
   #about-title{
     font-size: 2.5em;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     #focus{
       animation-name: fadeInLeft;
       animation-duration: 5s;
-    }
-    #perseverance{
-      animation-name: fadeInLeft;
-      animation-duration: 6s;
-    }
-    #passion{
-      animation-name: fadeInLeft;
-      animation-duration: 7s;
     }
     @media (max-width: $phone) {
       font-size: 1.25em;
@@ -25,6 +17,7 @@
   p{
     color: $light-grey;
     font-size: 1.25em;
+    font-weight: 400;
     width: 50%;
     text-align: center;
     animation-name: fadeInRight;

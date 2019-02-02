@@ -39,6 +39,8 @@ a:active, a:focus {
 
 .center-all-flex {
   display: flex;
+  display: -webkit-flex;
+  /* Safari */
   justify-content: center;
   align-items: center; }
 
@@ -48,11 +50,26 @@ a:active, a:focus {
 .flex-column {
   flex-direction: column; }
 
+@media screen and (max-width: 768px) {
+  .no-show-phone {
+    display: none; } }
+
+@media screen and (max-width: 991px) {
+  .no-show-tab {
+    display: none; } }
+
 .center {
   text-align: center; }
 
 .caps {
   font-variant: small-caps; }
+
+.shadow, #container-work #container-projects .project-card .project-buttons .project-button:hover {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.shadow-grow:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 .section-title {
   color: #FF4141;
@@ -140,94 +157,40 @@ a:active, a:focus {
     -webkit-transform: none;
     transform: none; } }
 #container-work {
-  padding: 75px 0 50px; }
-  @media screen and (max-width: 768px) {
-    #container-work {
-      padding: 50px 10px 0; } }
-  #container-work .mockups {
-    color: #454545;
-    margin: 0 0 50px 15%; }
-    @media screen and (max-width: 768px) {
-      #container-work .mockups {
-        padding: 0 10px; } }
-    #container-work .mockups h3 {
-      font-size: 2em;
-      padding-bottom: 20px; }
-    #container-work .mockups p {
-      color: #878787; }
-    @media screen and (max-width: 768px) {
-      #container-work .mockups {
-        text-align: center;
-        margin-left: 0; }
-        #container-work .mockups h3 {
-          font-size: 1.5em; } }
-    #container-work .mockups .mockup-items {
-      margin-top: 20px;
-      justify-content: flex-start; }
-      @media screen and (max-width: 768px) {
-        #container-work .mockups .mockup-items {
-          justify-content: center;
-          flex-wrap: wrap; } }
-      #container-work .mockups .mockup-items .mockup-item {
-        margin-right: 30px; }
-        #container-work .mockups .mockup-items .mockup-item h4 {
-          font-size: 1.5em; }
-        @media screen and (max-width: 768px) {
-          #container-work .mockups .mockup-items .mockup-item {
-            margin: 20px 0 0 0; } }
-  #container-work .mockup-img {
-    width: 240px; }
-  #container-work .project-title {
-    color: #454545;
-    font-size: 2em;
-    margin: 20px 0 -40px 15%; }
-    @media screen and (max-width: 768px) {
-      #container-work .project-title {
-        font-size: 1.5em;
-        text-align: center;
-        margin-left: 0; } }
-  @media screen and (max-width: 768px) {
+  padding: 50px 0;
+  width: 80%;
+  margin-left: 10%; }
+  #container-work #container-projects {
+    flex-wrap: wrap; }
     #container-work #container-projects .project-card {
-      display: flex;
-      justify-content: center;
-      flex-direction: column-reverse;
-      margin: 50px 0; } }
-  #container-work #container-projects .project-card #column-left {
-    width: 40%;
-    margin: 100px 0; }
-    @media screen and (max-width: 768px) {
-      #container-work #container-projects .project-card #column-left {
-        width: 100%;
-        margin: 0;
-        text-align: center; } }
-    #container-work #container-projects .project-card #column-left p {
-      color: #878787; }
-    #container-work #container-projects .project-card #column-left #button-row {
-      margin: 40px 0 20px; }
-      #container-work #container-projects .project-card #column-left #button-row .project-button {
-        color: rgba(255, 255, 255, 0.75);
-        background-color: #121e2d;
-        margin: 0 10px;
-        padding: 7px 10px;
-        border-radius: 3px; }
-        #container-work #container-projects .project-card #column-left #button-row .project-button:hover {
-          color: #fff; }
-        #container-work #container-projects .project-card #column-left #button-row .project-button i {
-          color: #FF4141;
-          margin-right: 5px; }
-  #container-work #container-projects .project-card #column-right {
-    width: 30%; }
-    @media screen and (max-width: 768px) {
-      #container-work #container-projects .project-card #column-right {
-        display: none; } }
-    #container-work #container-projects .project-card #column-right .project-img .project-img-bg {
-      background-image: url("../../../Assets/3px-tile.png");
-      background-color: #FF4141;
-      height: 250px;
-      width: 250px;
-      margin: 25px 0 0 100px; }
-    #container-work #container-projects .project-card #column-right .project-img img {
-      height: 250px;
-      margin: -225px 0 0 50px; }
+      margin: 20px;
+      padding: 10px;
+      width: 25%;
+      border-radius: 3px;
+      align-self: flex-start; }
+      #container-work #container-projects .project-card .project-img {
+        border-radius: 3px;
+        width: 100%; }
+      #container-work #container-projects .project-card h3 {
+        padding: 10px 0 5px 0;
+        color: #FF4141; }
+      #container-work #container-projects .project-card p {
+        flex: 1 0 auto;
+        width: 80%;
+        margin-bottom: 40px; }
+      #container-work #container-projects .project-card .project-buttons {
+        text-align: center;
+        padding: 20px; }
+        #container-work #container-projects .project-card .project-buttons .project-button {
+          border-radius: 3px;
+          padding: 10px 20px;
+          margin: 0 20px;
+          color: #121e2d;
+          background-color: #f7f7f7; }
+          #container-work #container-projects .project-card .project-buttons .project-button i {
+            margin-right: 5px;
+            color: #FF4141; }
+          #container-work #container-projects .project-card .project-buttons .project-button:hover {
+            cursor: pointer; }
 
 /*# sourceMappingURL=Work.css.map */

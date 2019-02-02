@@ -15,25 +15,9 @@ class Work extends Component{
     constructor(props) {
         super(props);
         this.state = {
-            psd:[
-                {
-                    title: "Jewelry Store",
-                    imgUrl: jewelryBg,
-                    projectUrl: "https://billyderringer.github.io/jewelry-store/"
-                },
-                {
-                    title: "Charger Customs",
-                    imgUrl: chargerBg,
-                    projectUrl: "https://billyderringer.github.io/charger/"
-                },
-                {
-                    title: "CAP Program",
-                    imgUrl: capBg,
-                    projectUrl: "https://billyderringer.github.io/cap-program/"
-                }
-            ],
             projects: [
-                /*{
+                /*
+                {
                     title: "Homeschool Hub",
                     description: "A React/Redux app that performs as a content management system for Homeschooling families/individuals." +
                     " Custom backend API features authentication using JWT Bearer Tokens and full CRUD operations." +
@@ -41,7 +25,31 @@ class Work extends Component{
                     siteUrl: "https://billyderringer.github.io/homeschool-hub/",
                     siteGithub: "https://github.com/billyderringer/homeschool-hub",
                     imgUrl: studentGrads
-                },*/
+                },
+                */
+                {
+                    title: "NEXT.",
+                    description: "A responsive mock-up for an e-commerce jewelry store",
+                    siteUrl: "https://billyderringer.github.io/jewelry-store/",
+                    siteGithub: "https://github.com/billyderringer/jewelry-store",
+                    imgUrl: jewelryBg
+                },
+                {
+                    title: "Charger Customs",
+                    description: "A responsive mock-up for a custom auto garage",
+                    siteUrl: "https://billyderringer.github.io/charger/",
+                    siteGithub: "https://github.com/billyderringer/charger",
+                    imgUrl: chargerBg
+                },
+                /*
+                {
+                    title: "CAP Program",
+                    description: "A React app that returns results by state using the National Parks Service API. " +
+                      "Find your next adventure here!",
+                    imgUrl: capBg,
+                    siteUrl: "https://billyderringer.github.io/cap-program/"
+                },
+                */
                 {
                     title: "National Parks Finder",
                     description: "A React app that returns results by state using the National Parks Service API. " +
@@ -72,7 +80,7 @@ class Work extends Component{
                     " level. This project makes use of template literals and conditional rendering to behave as a SPA. No" +
                     " framework was used for Project Math.",
                     siteUrl: "https://billyderringer.github.io/project-math/",
-                    siteGithub: "https://github.com/billyderringer/project-mathr",
+                    siteGithub: "https://github.com/billyderringer/project-math",
                     imgUrl: addition
                 }
             ]
@@ -81,9 +89,9 @@ class Work extends Component{
 
     render(){
         return(
-            <section id="container-work">
+            <section id="container-work"
+                     className="center-all-flex flex-column">
                 <h2 className="section-title center">Work</h2>
-                <Mockups psd={this.state.psd}/>
                 <WorkTile projects={this.state.projects}/>
             </section>
         )

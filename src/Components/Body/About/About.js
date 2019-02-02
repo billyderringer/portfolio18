@@ -8,15 +8,12 @@ class About extends Component{
                      className="center-all-flex flex-column">
                 <h2 id="about-title"
                     className="section-title">
-                    <span id="focus">Focus.</span>
-                    <span id="perseverance">Perseverance.</span>
-                    <span id="passion">Passion.</span>
+                    <span id="focus">WELCOME!</span>
                 </h2>
                 <p>
-                    Focused solutions-oriented developer currently working with React, Redux and
-                    various other awesome tools. Avid, teachable learner, willing to take on any
-                    challenge given the opportunity. Seeking a transition from business owner
-                    to full-time Front-End Developer within a growing organization.
+                    In short, I am a developer whose goal is to find the
+                  best solution for any given problem. Because of this, I am constantly learning new technologies and methods
+                  for improving my workflow.<br className="no-show-tab"/> Check out some of my work below.
                 </p>
             </section>
         )

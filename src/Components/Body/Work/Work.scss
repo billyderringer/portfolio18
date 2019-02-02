@@ -1,120 +1,46 @@
 @import "../../../SharedCSS/Shared";
 
-#container-work{
-  padding: 75px 0 50px;
-  @media screen and (max-width: $phone) {
-    padding: 50px 10px 0;
-  }
-  .mockups{
-    color: $dark-grey;
-    margin: 0 0 50px 15%;
-    @media screen and (max-width: $phone) {
-      padding: 0 10px;
-    }
-    h3{
-      font-size: 2em;
-      padding-bottom: 20px;
-    }
-    p{
-      color: $light-grey;
-    }
-    @media screen and (max-width: $phone) {
-      text-align: center;
-      margin-left: 0;
+#container-work {
+  padding: 50px 0;
+  width: 80%;
+  margin-left: 10%;
+  #container-projects{
+    flex-wrap: wrap;
+    .project-card {
+      margin: 20px;
+      padding: 10px;
+      width: 25%;
+      border-radius: 3px;
+      align-self: flex-start;
+      .project-img{
+        border-radius: 3px;
+        width: 100%;
+      }
       h3{
-        font-size: 1.5em;
+        padding: 10px 0 5px 0;
+        color: $red-orange;
       }
       p{
-
+        flex: 1 0 auto;
+        width: 80%;
+        margin-bottom: 40px;
       }
-    }
-    .mockup-items{
-      margin-top: 20px;
-      justify-content: flex-start;
-      @media screen and (max-width: $phone) {
-        justify-content: center;
-        flex-wrap: wrap;
-      }
-      .mockup-item{
-        margin-right: 30px;
-        h4{
-          font-size: 1.5em;
-        }
-        @media screen and (max-width: $phone) {
-          margin: 20px 0 0 0;
-        }
-      }
-    }
-  }
-  .mockup-img{
-    width: 240px;
-  }
-  .project-title{
-    color: $dark-grey;
-    font-size: 2em;
-    margin: 20px 0 -40px 15%;
-    @media screen and (max-width: $phone) {
-      font-size: 1.5em;
-      text-align: center;
-      margin-left: 0;
-    }
-  }
-  #container-projects{
-
-    .project-card{
-      @media screen and (max-width: $phone) {
-        display: flex;
-        justify-content: center;
-        flex-direction: column-reverse;
-        margin: 50px 0;
-      }
-      #column-left{
-        width: 40%;
-        margin: 100px 0;
-        @media screen and (max-width: $phone) {
-          width: 100%;
-          margin: 0;
-          text-align: center;
-        }
-        p{
-          color: $light-grey;
-        }
-        #button-row{
-          margin: 40px 0 20px;
-          .project-button{
-            color: $opaque-white;
-            background-color: $dark-blue;
-            margin: 0 10px;
-            padding: 7px 10px;
-            border-radius: 3px;
-            &:hover{
-              color: $white;
+      .project-buttons{
+        text-align: center;
+        padding: 20px;
+        .project-button{
+          border-radius: 3px;
+          padding: 10px 20px;
+          margin: 0 20px;
+          i{
+            margin-right: 5px;
+            color: $red-orange;
           }
-            i{
-              color: $red-orange;
-              margin-right: 5px;
-            }
-
-          }
-        }
-      }
-      #column-right{
-        width: 30%;
-        @media screen and (max-width: $phone) {
-          display: none;
-        }
-        .project-img{
-
-          .project-img-bg{
-            background-image: url("../../../Assets/3px-tile.png");
-            background-color: $red-orange;
-            height: 250px;
-            width: 250px;
-            margin: 25px 0 0 100px;
-          }
-          img{
-            height: 250px;
-            margin: -225px 0 0 50px;
+          color: $dark-blue;
+          background-color: $off-white;
+          &:hover{
+            cursor: pointer;
+            @extend .shadow;
           }
         }
       }

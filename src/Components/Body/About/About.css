@@ -39,6 +39,8 @@ a:active, a:focus {
 
 .center-all-flex {
   display: flex;
+  display: -webkit-flex;
+  /* Safari */
   justify-content: center;
   align-items: center; }
 
@@ -48,11 +50,26 @@ a:active, a:focus {
 .flex-column {
   flex-direction: column; }
 
+@media screen and (max-width: 768px) {
+  .no-show-phone {
+    display: none; } }
+
+@media screen and (max-width: 991px) {
+  .no-show-tab {
+    display: none; } }
+
 .center {
   text-align: center; }
 
 .caps {
   font-variant: small-caps; }
+
+.shadow {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.shadow-grow:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 .section-title {
   color: #FF4141;
@@ -140,25 +157,20 @@ a:active, a:focus {
     -webkit-transform: none;
     transform: none; } }
 #container-about {
-  padding: 50px 0; }
+  padding: 60px 0; }
   #container-about #about-title {
     font-size: 2.5em;
-    margin-bottom: 30px; }
+    margin-bottom: 40px; }
     #container-about #about-title #focus {
       animation-name: fadeInLeft;
       animation-duration: 5s; }
-    #container-about #about-title #perseverance {
-      animation-name: fadeInLeft;
-      animation-duration: 6s; }
-    #container-about #about-title #passion {
-      animation-name: fadeInLeft;
-      animation-duration: 7s; }
     @media (max-width: 768px) {
       #container-about #about-title {
         font-size: 1.25em; } }
   #container-about p {
     color: #878787;
     font-size: 1.25em;
+    font-weight: 400;
     width: 50%;
     text-align: center;
     animation-name: fadeInRight;

@@ -89,8 +89,7 @@ class Work extends Component{
 
     render(){
         return(
-            <section id="container-work"
-                     className="center-all-flex flex-column">
+            <section id="container-work">
                 <h2 className="section-title center">Work</h2>
                 <WorkTile projects={this.state.projects}/>
             </section>

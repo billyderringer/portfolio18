@@ -64,11 +64,11 @@ a:active, a:focus {
 .caps {
   font-variant: small-caps; }
 
-.shadow, #container-work #container-projects .project-card .project-buttons .project-button:hover {
+.shadow, #container-work #container-projects .project-card .project-body .project-buttons .project-button {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
 
-.shadow-grow:hover {
+.shadow-grow:hover, #container-work #container-projects .project-card .project-body .project-buttons .project-button:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
 .section-title {
@@ -161,37 +161,39 @@ a:active, a:focus {
   width: 80%;
   margin-left: 10%; }
   #container-work #container-projects {
-    flex-wrap: wrap; }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
     #container-work #container-projects .project-card {
+      display: flex;
       margin: 20px;
       padding: 10px;
       width: 25%;
-      border-radius: 3px;
-      align-self: flex-start; }
-      #container-work #container-projects .project-card .project-img {
-        border-radius: 3px;
-        width: 100%; }
-      #container-work #container-projects .project-card h3 {
-        padding: 10px 0 5px 0;
-        color: #FF4141; }
-      #container-work #container-projects .project-card p {
-        flex: 1 0 auto;
-        width: 80%;
-        margin-bottom: 40px; }
-      #container-work #container-projects .project-card .project-buttons {
-        text-align: center;
-        padding: 20px; }
-        #container-work #container-projects .project-card .project-buttons .project-button {
+      border-radius: 3px; }
+      #container-work #container-projects .project-card .project-body {
+        display: flex;
+        flex-direction: column; }
+        #container-work #container-projects .project-card .project-body h3 {
+          padding: 10px 0 5px 0;
+          color: #FF4141; }
+        #container-work #container-projects .project-card .project-body p {
+          flex: 1 0 auto;
+          margin-bottom: 40px; }
+        #container-work #container-projects .project-card .project-body .project-img {
           border-radius: 3px;
-          padding: 10px 20px;
-          margin: 0 20px;
-          color: #121e2d;
-          background-color: #f7f7f7; }
-          #container-work #container-projects .project-card .project-buttons .project-button i {
-            margin-right: 5px;
-            color: #FF4141; }
-          #container-work #container-projects .project-card .project-buttons .project-button:hover {
-            cursor: pointer; }
+          width: 100%; }
+        #container-work #container-projects .project-card .project-body .project-buttons {
+          text-align: center;
+          padding: 20px; }
+          #container-work #container-projects .project-card .project-body .project-buttons .project-button {
+            border-radius: 3px;
+            padding: 10px 20px;
+            margin: 0 20px;
+            color: #121e2d;
+            background-color: #f7f7f7; }
+            #container-work #container-projects .project-card .project-body .project-buttons .project-button i {
+              margin-right: 5px;
+              color: #FF4141; }
 
 @media screen and (max-width: 767px) {
   #container-work {

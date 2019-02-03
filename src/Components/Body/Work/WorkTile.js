@@ -5,19 +5,17 @@ class WorkTile extends Component{
     render(){
         const { projects  } = this.props
         return(
-          <div id="container-projects"
-               className="center-all-flex">
+          <div id="container-projects">
             {
                 projects.map((project, i) => {
                 return <section key={i}
                             className="project-card shadow shadow-grow">
+                        <div className="project-body center">
                             <img className="project-img shadow"
                                  src={project.imgUrl}
                                  alt={project.title}/>
-                            <div>
-                                <h3>{project.title}</h3>
-                                <p>{project.description}</p>
-                            </div>
+                            <h3>{project.title}</h3>
+                            <p>{project.description}</p>
                             <div className="project-buttons">
                                 <a className="project-button"
                                    href={project.siteGithub}
@@ -34,6 +32,7 @@ class WorkTile extends Component{
                                     Demo
                                 </a>
                             </div>
+                        </div>
                         </section>
 
                 })

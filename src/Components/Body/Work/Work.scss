@@ -59,13 +59,14 @@
     }
   }
 }
-@media screen and (min-width: $tablet-min) and (max-width: $tablet-max) {
+//Custom 1024px max for iPad pro
+@media screen and (min-width: $tablet-min) and (max-width: 1024px) {
   #container-work{
     margin: 0;
     width: 100%;
     #container-projects{
       .project-card{
-        width: 40%;
+        width: 50%;
       }
     }
   }

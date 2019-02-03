@@ -199,11 +199,11 @@ a:active, a:focus {
     width: 100%; }
     #container-work #container-projects .project-card {
       width: 100%; } }
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   #container-work {
     margin: 0;
     width: 100%; }
     #container-work #container-projects .project-card {
-      width: 40%; } }
+      width: 50%; } }
 
 /*# sourceMappingURL=Work.css.map */

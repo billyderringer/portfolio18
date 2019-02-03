@@ -47,3 +47,26 @@
     }
   }
 }
+
+@media screen and (max-width: $phone) {
+  #container-work{
+    margin: 0;
+    width: 100%;
+    #container-projects{
+      .project-card{
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (min-width: $tablet-min) and (max-width: $tablet-max) {
+  #container-work{
+    margin: 0;
+    width: 100%;
+    #container-projects{
+      .project-card{
+        width: 40%;
+      }
+    }
+  }
+}

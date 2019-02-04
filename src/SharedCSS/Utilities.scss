@@ -54,6 +54,37 @@ $desktop: 992px;
   }
 }
 
+@mixin darken($color){
+  &:hover{
+    background-color: darken($color, 5);
+  }
+
+}
+
+//underline code from Bogdan Blinnikov - https://codepen.io/bonkalol/pen/tduoG?editors=1100
+.underline {
+  position: relative;
+
+  &:hover,
+  &:focus,
+  &:active {
+    cursor: pointer;
+    &:after {
+      width: 100%;
+    }
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0; bottom: -3px;
+    height: 3px;
+    background-color: $red-orange;
+    width: 0;
+    transition: width .4s;
+  }
+}
+
 .section-title{
   color: $red-orange;
   font-size: 2.5em;

@@ -10,7 +10,7 @@ class About extends Component{
                      className="center-all-flex flex-column">
               <h2 id="about-title"
                   className="section-title">
-                  <span id="focus">WELCOME!</span>
+                  WELCOME!
               </h2>
               <p>
                   In short, I am a developer whose goal is to find the

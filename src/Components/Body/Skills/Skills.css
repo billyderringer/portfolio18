@@ -179,6 +179,11 @@ a:active, a:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  #container-skills h2 {
+    border-bottom: 1px solid #121e2d;
+    display: inline; }
+  #container-skills #skills-title-secondary {
+    color: #878787; }
   #container-skills #container-columns {
     align-items: flex-start; }
     #container-skills #container-columns #versioning-skills {

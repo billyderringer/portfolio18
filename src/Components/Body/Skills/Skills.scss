@@ -7,6 +7,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  h2{
+    border-bottom: 1px solid $dark-blue;
+    display: inline;
+  }
+  #skills-title-secondary{
+    color: $light-grey;
+  }
   #container-columns{
     align-items: flex-start;
     #versioning-skills{

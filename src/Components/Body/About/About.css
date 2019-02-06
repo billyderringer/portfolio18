@@ -176,10 +176,10 @@ a:active, a:focus {
   padding: 60px 0; }
   #container-about #about-title {
     font-size: 2.5em;
-    margin-bottom: 40px; }
-    #container-about #about-title #focus {
-      animation-name: fadeInLeft;
-      animation-duration: 5s; }
+    margin-bottom: 40px;
+    padding: 5px;
+    animation-name: fadeInLeft;
+    animation-duration: 5s; }
     @media (max-width: 767px) {
       #container-about #about-title {
         font-size: 1.25em; } }

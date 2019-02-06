@@ -175,8 +175,13 @@ a:active, a:focus {
 #container-work {
   padding: 100px 0;
   width: 80%;
-  margin-left: 10%; }
+  margin-left: 10%;
+  text-align: center; }
+  #container-work h2 {
+    border-bottom: 1px solid #f7f7f7;
+    display: inline; }
   #container-work #container-projects {
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; }
@@ -206,13 +211,13 @@ a:active, a:focus {
           border-bottom-right-radius: 3px;
           background-color: #121e2d; }
           #container-work #container-projects .project-card .project-body .project-buttons .project-button {
-            border-radius: 3px;
+            border-radius: 25px;
             padding: 10px 20px;
             margin: 0 20px;
             color: #121e2d;
             background-color: #f7f7f7; }
             #container-work #container-projects .project-card .project-body .project-buttons .project-button:hover {
-              background-color: #eaeaea; }
+              background-color: #ededed; }
             #container-work #container-projects .project-card .project-body .project-buttons .project-button i {
               margin-right: 5px;
               color: #FF4141; }

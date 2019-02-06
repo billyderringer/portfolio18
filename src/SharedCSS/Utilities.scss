@@ -56,7 +56,7 @@ $desktop: 992px;
 
 @mixin darken($color){
   &:hover{
-    background-color: darken($color, 5);
+    background-color: darken($color, 4);
   }
 
 }
@@ -64,7 +64,6 @@ $desktop: 992px;
 //underline code from Bogdan Blinnikov - https://codepen.io/bonkalol/pen/tduoG?editors=1100
 .underline {
   position: relative;
-
   &:hover,
   &:focus,
   &:active {

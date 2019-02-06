@@ -42,6 +42,7 @@ class Skills extends Component{
         return(
             <section id="container-skills"
                      className="center-all-flex flex-column">
+
                 <h2 id="skills-title"
                     className="section-title">
                     Skills

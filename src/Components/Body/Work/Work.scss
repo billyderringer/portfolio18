@@ -4,7 +4,13 @@
   padding: 100px 0;
   width: 80%;
   margin-left: 10%;
+  text-align: center;
+  h2{
+    border-bottom: 1px solid $off-white;
+    display: inline;
+  }
   #container-projects{
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -39,7 +45,7 @@
           border-bottom-right-radius: 3px;
           background-color: $dark-blue;
           .project-button{
-            border-radius: 3px;
+            border-radius: 25px;
             padding: 10px 20px;
             margin: 0 20px;
             @include darken($off-white);

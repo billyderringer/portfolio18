@@ -64,16 +64,14 @@ class Work extends Component{
                 },
                 {
                     title: "Random Speller",
-                    description: "A React app that connects to the WordsAPI and generates random words with definitions " +
-                    "to practice spelling",
+                    description: "A React app that generates random words with definitions to practice spelling",
                     siteUrl: "https://billyderringer.github.io/random-speller/",
                     siteGithub: "https://github.com/billyderringer/random-speller",
                     imgUrl: dictionary
                 },
                 {
                     title: "Project Math",
-                    description: "An app that generates random math problems based upon selections of operation and difficulty" +
-                    " level",
+                    description: "An app that generates random math problems with varying difficulty levels" ,
                     siteUrl: "https://billyderringer.github.io/project-math/",
                     siteGithub: "https://github.com/billyderringer/project-math",
                     imgUrl: addition

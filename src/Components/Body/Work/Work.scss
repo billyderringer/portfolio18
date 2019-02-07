@@ -33,6 +33,7 @@
         flex-direction: column;
         justify-content: space-between;
         flex-grow: 1;
+        cursor: default;
         .project-description{
           //paragraph fill remaining space --not currently used
           //flex: 1 0 auto;
@@ -42,8 +43,8 @@
           text-align: left;
           flex-direction: column;
           h3{
-            padding: 5px;
-            color: $black;
+            padding: 0 5px 5px 5px;
+            color: $off-black;
             font-size: 1.25rem;
           }
           span{

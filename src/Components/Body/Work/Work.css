@@ -203,7 +203,8 @@ a:active, a:focus {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        flex-grow: 1; }
+        flex-grow: 1;
+        cursor: default; }
         #container-work #container-projects .project-card .project-body .project-description {
           justify-self: center;
           display: flex;
@@ -211,8 +212,8 @@ a:active, a:focus {
           text-align: left;
           flex-direction: column; }
           #container-work #container-projects .project-card .project-body .project-description h3 {
-            padding: 5px;
-            color: #232323;
+            padding: 0 5px 5px 5px;
+            color: #3b3b3b;
             font-size: 1.25rem; }
           #container-work #container-projects .project-card .project-body .project-description span {
             content: "";

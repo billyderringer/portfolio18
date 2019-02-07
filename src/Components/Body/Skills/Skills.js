@@ -42,9 +42,10 @@ class Skills extends Component{
         return(
             <section id="container-skills"
                      className="center-all-flex flex-column">
-
+                <h3 id="skills-title-secondary"
+                    className="caps">These are some of my</h3>
                 <h2 id="skills-title"
-                    className="section-title">
+                    className="section-title caps">
                     Skills
                 </h2>
                 <section id="container-columns"

@@ -4,7 +4,7 @@ import './Header.css'
 class Brand extends Component{
     render(){
         return(
-            <div id="container-brand">
+            <div id="container-brand" className="caps">
                 <h2 id="nav-logo">BD</h2>
                 <h2 id="nav-name">Billy Derringer</h2>
             </div>

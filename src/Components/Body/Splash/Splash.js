@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import './Splash.css'
 
 class Splash extends Component{
-    render(){
+  render(){
         return(
             <section id="container-splash"
-                 className="center-all-flex flex-column">
+                 className="center-all-flex flex-column caps">
                 <div id="background-layer">
                 </div>
                 <section id="splash-brand"

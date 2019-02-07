@@ -10,6 +10,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
+  @media screen and (max-width: $tablet-max){
+    background-image: url("../../../Assets/neon-room-sm.jpg");
+  }
   #background-layer{
     z-index: -1;
     position: absolute;

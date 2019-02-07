@@ -7,7 +7,7 @@
 html, body {
   height: 100%;
   margin: 0;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 a, p {
   color: inherit; }
@@ -54,7 +54,7 @@ a:active, a:focus {
   .no-show-phone {
     display: none; } }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1024px) {
   .no-show-tab {
     display: none; } }
 
@@ -88,6 +88,7 @@ a:active, a:focus {
     transition: width .4s; }
 
 .section-title {
+  font-family: "Raleway", sans-serif;
   color: #FF4141;
   font-size: 2.5em;
   margin-bottom: 50px; }
@@ -174,8 +175,7 @@ a:active, a:focus {
     transform: none; } }
 #container-work {
   padding: 100px 0;
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
   text-align: center; }
   #container-work h2 {
     border-bottom: 1px solid #f7f7f7;
@@ -187,40 +187,69 @@ a:active, a:focus {
     justify-content: center; }
     #container-work #container-projects .project-card {
       display: flex;
+      flex-direction: row;
       margin: 40px;
       padding: 10px;
-      width: 25%;
+      width: 40%;
       border-radius: 3px; }
+      #container-work #container-projects .project-card .project-img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 3px;
+        height: 200px;
+        margin-right: 10px; }
       #container-work #container-projects .project-card .project-body {
         display: flex;
-        flex-direction: column; }
-        #container-work #container-projects .project-card .project-body h3 {
-          padding: 10px 0 5px 0;
-          color: #FF4141; }
-        #container-work #container-projects .project-card .project-body p {
-          flex: 1 0 auto;
-          margin-bottom: 40px; }
-        #container-work #container-projects .project-card .project-body .project-img {
-          border-radius: 3px;
-          width: 100%; }
+        flex-direction: column;
+        justify-content: space-between; }
+        #container-work #container-projects .project-card .project-body .project-description {
+          justify-self: center;
+          display: flex;
+          justify-content: center;
+          text-align: left;
+          flex-direction: column; }
+          #container-work #container-projects .project-card .project-body .project-description h3 {
+            padding: 5px;
+            color: #232323;
+            font-size: 1.25rem; }
+          #container-work #container-projects .project-card .project-body .project-description span {
+            content: "";
+            border-bottom: 2px solid #FF4141;
+            width: 20%;
+            margin: 5px; }
+          #container-work #container-projects .project-card .project-body .project-description p {
+            padding: 5px;
+            color: #878787;
+            font-size: 1rem; }
         #container-work #container-projects .project-card .project-body .project-buttons {
-          text-align: center;
-          padding: 30px 0;
-          margin: -10px;
+          padding: 10px 0;
           border-bottom-left-radius: 3px;
           border-bottom-right-radius: 3px;
-          background-color: #121e2d; }
+          background-color: #121e2d;
+          display: flex;
+          align-items: center;
+          justify-content: space-around; }
           #container-work #container-projects .project-card .project-body .project-buttons .project-button {
             border-radius: 25px;
-            padding: 10px 20px;
-            margin: 0 20px;
-            color: #121e2d;
-            background-color: #f7f7f7; }
+            padding: 5px 10px;
+            color: #878787;
+            background-color: #f7f7f7;
+            display: flex;
+            align-items: center; }
             #container-work #container-projects .project-card .project-body .project-buttons .project-button:hover {
-              background-color: #ededed; }
+              cursor: pointer;
+              color: #454545; }
             #container-work #container-projects .project-card .project-body .project-buttons .project-button i {
               margin-right: 5px;
-              color: #FF4141; }
+              padding: 6px;
+              border-radius: 50%;
+              font-size: .9rem;
+              background-color: #FF4141;
+              color: #f7f7f7; }
+            #container-work #container-projects .project-card .project-body .project-buttons .project-button .fa-external-link-alt {
+              font-size: .75rem;
+              padding: 7px; }
             @media screen and (max-width: 767px) {
               #container-work #container-projects .project-card .project-body .project-buttons .project-button {
                 padding: 5px 15px;
@@ -237,6 +266,8 @@ a:active, a:focus {
     margin: 0;
     width: 100%; }
     #container-work #container-projects .project-card {
-      width: 50%; } }
+      width: 50%; }
+      #container-work #container-projects .project-card .project-body {
+        width: 100%; } }
 
 /*# sourceMappingURL=Work.css.map */

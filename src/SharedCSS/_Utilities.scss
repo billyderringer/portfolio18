@@ -3,8 +3,8 @@
 //Breakpoints
 $phone: 767px;
 $tablet-min: 768px;
-$tablet-max: 991px;
-$desktop: 992px;
+$tablet-max: 1024px;
+$desktop: 1025px;
 
 //Flex stuff
 .center-all-flex{
@@ -85,6 +85,7 @@ $desktop: 992px;
 }
 
 .section-title{
+  font-family: $primary-font;
   color: $red-orange;
   font-size: 2.5em;
   margin-bottom: 50px;
@@ -103,106 +104,5 @@ $desktop: 992px;
   margin-bottom: 5px;
   @media screen and (max-width: $phone) {
     font-size: 1.15em;
-  }
-}
-
-//Animations ***includes webkit first
-
-//Fade In Left
-@-webkit-keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(-5%, 0, 0);
-    transform: translate3d(-5%, 0, 0);
-  }
-  25%{
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(-5%, 0, 0);
-    transform: translate3d(-5%, 0, 0);
-  }
-  25%{
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-//Fade In Right
-@-webkit-keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(-5%, 0, 0);
-    transform: translate3d(-5%, 0, 0);
-  }
-  25%{
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(5%, 0, 0);
-    transform: translate3d(5%, 0, 0);
-  }
-  25%{
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-//Fade In Top
-@-webkit-keyframes fadeInTop {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -5%, 0);
-    transform: translate3d(0, -5%, 0);
-  }
-  25%{
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes fadeInTop {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -75%, 0);
-    transform: translate3d(0, -75%, 0);
-  }
-  25%{
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
   }
 }

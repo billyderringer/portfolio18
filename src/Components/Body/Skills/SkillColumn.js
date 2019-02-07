@@ -7,7 +7,7 @@ class SkillColumn extends Component{
         return(
             <React.Fragment>
                 <ul id={this.props.id}>
-                    <h3 className="sub-title">
+                    <h3 className="sub-title caps">
                         <i className={this.props.icon} />
                         {this.props.header}
                     </h3>

@@ -1,3 +1,5 @@
+@import "Fonts";
+
 //resets
 *, .container-fluid, .col, .row, nav, img, ul, li, h1, h2, h3, h4, h5, h6{
   margin: 0;
@@ -9,7 +11,7 @@
 html, body {
   height: 100%;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $secondary-font;
 }
 
 a, p{

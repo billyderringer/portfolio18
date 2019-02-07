@@ -15,7 +15,7 @@ class WorkTile extends Component {
                    className="project-img"/>
               <div className="project-body center">
                 <div className="project-description">
-                  <h3>{project.title}</h3>
+                  <h3 className="caps">{project.title}</h3>
                   <span className="line">
                                     </span>
                   <p>{project.description}</p>

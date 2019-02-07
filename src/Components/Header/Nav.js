@@ -9,7 +9,7 @@ class Nav extends Component{
         let connect = "#container-footer"
         return(
             <nav id="container-nav-top">
-               <ul className="center-all-flex flex-row">
+               <ul className="center-all-flex flex-row caps">
                    <li>
                        <AnchorLink href={skills}>Skills</AnchorLink>
                    </li>

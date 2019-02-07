@@ -16,6 +16,14 @@ a:hover, a:active, a:focus {
   color: inherit;
   text-decoration: none; }
 
+::-moz-selection {
+  background-color: #FF4141;
+  color: #fff; }
+
+::selection {
+  background-color: #FF4141;
+  color: #fff; }
+
 button {
   border: none;
   padding: 0 5px;
@@ -256,6 +264,14 @@ a:active, a:focus {
               #container-work #container-projects .project-card .project-body .project-buttons .project-button {
                 padding: 5px 15px;
                 margin: 0 10px; } }
+      @media screen and (max-width: 1024px) {
+        #container-work #container-projects .project-card {
+          flex-direction: column; }
+          #container-work #container-projects .project-card .project-body .project-description {
+            margin: 20px 0; }
+          #container-work #container-projects .project-card .project-body .project-buttons {
+            margin: 0 -10px -10px -10px;
+            padding: 20px 0; } }
 
 @media screen and (max-width: 767px) {
   #container-work {

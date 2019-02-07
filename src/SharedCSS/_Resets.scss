@@ -1,4 +1,5 @@
 @import "Fonts";
+@import "Colors";
 
 //resets
 *, .container-fluid, .col, .row, nav, img, ul, li, h1, h2, h3, h4, h5, h6{
@@ -12,6 +13,7 @@ html, body {
   height: 100%;
   margin: 0;
   font-family: $secondary-font;
+
 }
 
 a, p{
@@ -21,6 +23,16 @@ a, p{
 a:hover, a:active, a:focus{
   color: inherit;
   text-decoration: none;
+}
+
+::-moz-selection {
+  background-color: $red-orange;
+  color: $white;
+}
+
+::selection {
+  background-color: $red-orange;
+  color: $white;
 }
 
 button{

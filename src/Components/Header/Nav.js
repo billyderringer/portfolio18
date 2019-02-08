@@ -11,13 +11,19 @@ class Nav extends Component{
             <nav id="container-nav-top">
                <ul className="center-all-flex flex-row caps">
                    <li>
-                       <AnchorLink href={skills}>Skills</AnchorLink>
+                       <AnchorLink  className="underline"
+                                    href={skills}>Skills
+                       </AnchorLink>
                    </li>
                    <li>
-                       <AnchorLink href={work}>Work</AnchorLink>
+                       <AnchorLink className="underline"
+                                   href={work}>Work
+                       </AnchorLink>
                    </li>
                    <li>
-                       <AnchorLink href={connect}>Connect</AnchorLink>
+                       <AnchorLink className="underline"
+                                   href={connect}>Connect
+                       </AnchorLink>
                    </li>
                </ul>
             </nav>

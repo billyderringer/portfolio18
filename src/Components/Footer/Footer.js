@@ -15,7 +15,7 @@ function Footer(props) {
             href:"https://github.com/billyderringer",
             label:"GitHub",
             classNames:"github-light ",
-            iClassNames:"fab fa-github-square "
+            iClassNames:"fab fa-github-alt "
         },
         {
             href:"https://codepen.io/billyderringer/",

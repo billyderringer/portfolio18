@@ -30,10 +30,6 @@
       li{
         color: $opaque-white;
         margin: 0 10px;
-        @extend .underline;
-        -moz-transition: all .4s ease-in;
-        -o-transition: all .4s ease-in;
-        -webkit-transition: all .4s ease-in;
         &:hover{
           color: $white;
         }

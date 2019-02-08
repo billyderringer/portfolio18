@@ -26,14 +26,14 @@ class WorkTile extends Component {
                      target="_blank"
                      rel="noopener noreferrer">
                     <i className="fab fa-github-alt"/>
-                    Code
+                    CODE
                   </a>
                   <a className="project-button"
                      href={project.siteUrl}
                      target="_blank"
                      rel="noopener noreferrer">
-                    <i className="fas fa-external-link-alt"/>
-                    Demo
+                    <i className="fas fa-arrow-circle-right"/>
+                    DEMO
                   </a>
                 </div>
               </div>

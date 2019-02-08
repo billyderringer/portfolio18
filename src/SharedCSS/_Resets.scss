@@ -25,6 +25,7 @@ a:hover, a:active, a:focus{
   text-decoration: none;
 }
 
+//changes selected text background color for entire site
 ::-moz-selection {
   background-color: $red-orange;
   color: $white;

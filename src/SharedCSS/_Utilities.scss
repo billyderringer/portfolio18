@@ -35,6 +35,12 @@ $desktop: 1025px;
   }
 }
 
+.no-show-tab-only{
+  @media screen and (min-width: $tablet-min) and (max-width: $tablet-max) {
+    display: none;
+  }
+}
+
 .center{
   text-align: center;
 }
@@ -61,9 +67,16 @@ $desktop: 1025px;
 
 }
 
+.transition{
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+}
+
 //underline code from Bogdan Blinnikov - https://codepen.io/bonkalol/pen/tduoG?editors=1100
 .underline {
   position: relative;
+  @extend .transition;
   &:hover,
   &:focus,
   &:active {

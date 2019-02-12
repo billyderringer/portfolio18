@@ -34,7 +34,7 @@ function Footer(props) {
     return(
         <section id="container-footer"
              className="center-all-flex flex-column">
-            <h2 className="section-title">Connect With Me</h2>
+            <h2 className="section-title caps">Connect With Me</h2>
             <a href="mailto:billyderringer7@gmail.com"
                className="contact-button">
                 <i className="fas fa-envelope-square" />

@@ -10,9 +10,12 @@ class WorkTile extends Component {
           projects.map((project, i) => {
             return <section key={i}
                             className="project-card shadow shadow-grow">
-              <img src={project.imgUrl}
-                   alt={project.title}
-                   className="project-img"/>
+              <div className="wrapper-img center-all-flex">
+                <img src={project.imgUrl}
+                     alt={project.title}
+                     className="project-img"/>
+              </div>
+
               <div className="project-body center">
                 <div className="project-description">
                   <h3 className="caps">{project.title}</h3>

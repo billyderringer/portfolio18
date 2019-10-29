@@ -4,7 +4,6 @@
   padding: 100px 0;
   width: 100%;
   text-align: center;
-
   h2 {
     border-bottom: 1px solid $off-white;
     display: inline;
@@ -23,6 +22,7 @@
       padding: 10px;
       width: 40%;
       border-radius: 3px;
+      background-color: $white;
       .wrapper-img{
         .project-img {
           border-radius: 3px;
@@ -97,8 +97,11 @@
               color: $red-orange;
             }
 
-            i {
+            i:first-of-type {
               margin-right: 5px;
+            }
+            i:last-of-type {
+              margin-left: 5px;
             }
           }
 

@@ -35,8 +35,8 @@ class WorkTile extends Component {
                      href={project.siteUrl}
                      target="_blank"
                      rel="noopener noreferrer">
-                    <i className="fas fa-arrow-circle-right"/>
                     DEMO
+                    <i className="fas fa-arrow-circle-right"/>
                   </a>
                 </div>
               </div>

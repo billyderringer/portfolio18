@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import Resume from '../../Assets/BILLY DERRINGER Dev_Resume_2018.pdf'
+import Resume from '../../Assets/BILLY DERRINGER Dev_Resume_2021.pdf'
 
 function Footer(props) {
 
@@ -11,7 +11,7 @@ function Footer(props) {
             classNames:"linked-in ",
             iClassNames:"fab fa-linkedin "
         },
-        {
+        /*{
             href:"https://github.com/billyderringer",
             label:"GitHub",
             classNames:"github-light ",
@@ -22,7 +22,7 @@ function Footer(props) {
             label:"CodePen",
             classNames:"",
             iClassNames:"fab fa-codepen "
-        },
+        }*/
         {
             href:Resume,
             label:"Resume",
@@ -60,7 +60,7 @@ function Footer(props) {
                 }
             </section>
             <footer>
-                <h6>© 2018 Billy Derringer</h6>
+                <h6>© 2021 Billy Derringer</h6>
             </footer>
         </section>
     )

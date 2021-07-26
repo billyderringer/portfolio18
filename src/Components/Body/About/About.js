@@ -11,8 +11,7 @@ class About extends Component{
                   WELCOME!
               </h2>
               <p>
-                  My goal is to find the best solution for any given problem.
-                I am constantly learning new technologies and methods for improving my workflow.
+                I am a Front-End Javascript Developer working remotely in Texas. I enjoy solving all types of problems and love what I do! Feel free to check out my side projects and reach out.
               </p>
             </section>
         )
